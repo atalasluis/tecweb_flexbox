@@ -1,0 +1,51 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 600px;
+}
+
+.Header{
+    width: 100%;
+    height: 25%;
+
+    background-color: red;
+    font-size: 50px;
+    color: white;
+}
+.SideNav{
+    flex-basis: 150px;
+    flex-grow: 1;
+    
+
+    background-color: yellow;
+    font-size: 50px;
+    color: white;
+}
+.MainContent{
+    flex-basis: 150px;
+    flex-grow: 2;
+
+    background-color: palevioletred;
+    font-size: 50px;
+    color: white;
+}
+.SideBar{
+    flex-basis: 150px;
+    flex-grow: 1;
+
+    background-color: yellow;
+    font-size: 50px;
+    color: white;
+}
+.Footer{
+    width: 100%;
+    height: 25%;
+
+    background-color: red;
+    font-size: 50px;
+    color: white;
+}
